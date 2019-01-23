@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <servlet>
+    <servlet-name>LoginAction</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.action.LoginAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MovieAction</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.action.MovieAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindMovieByIdAction</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.action.FindMovieByIdAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindCinemaByPageAction</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.action.FindCinemaByPageAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SortMoviesAction</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.action.SortMoviesAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterAction</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.action.RegisterAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateMovieAction</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.action.UpdateMovieAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryCommentsAction</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.action.QueryCommentsAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryMovieSessionAction</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.action.QueryMovieSessionAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BuyTicketAction</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.action.BuyTicketAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteCommentsAction</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.action.DeleteCommentsAction</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginAction</servlet-name>
+    <url-pattern>/LoginAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MovieAction</servlet-name>
+    <url-pattern>/MovieAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindMovieByIdAction</servlet-name>
+    <url-pattern>/FindMovieByIdAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindCinemaByPageAction</servlet-name>
+    <url-pattern>/FindCinemaByPageAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SortMoviesAction</servlet-name>
+    <url-pattern>/SortMoviesAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterAction</servlet-name>
+    <url-pattern>/RegisterAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateMovieAction</servlet-name>
+    <url-pattern>/UpdateMovieAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryCommentsAction</servlet-name>
+    <url-pattern>/QueryCommentsAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryMovieSessionAction</servlet-name>
+    <url-pattern>/QueryMovieSessionAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuyTicketAction</servlet-name>
+    <url-pattern>/BuyTicketAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteCommentsAction</servlet-name>
+    <url-pattern>/DeleteCommentsAction</url-pattern>
+  </servlet-mapping>
+
+</web-app>
