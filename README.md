@@ -22,15 +22,11 @@
 ## 项目主要界面展示
  >首页
  
- ---
- 
 ![首页](https://fyf2016.github.io/images/project/DBProject/movie1.png)
 
 ---
 
 >购票界面
-
- ---
  
 ![购票界面](https://fyf2016.github.io/images/project/DBProject/movie2.png)
 
@@ -38,32 +34,24 @@
  
 >电影列表界面
 
- ---
-
 ![电影列表界面](https://fyf2016.github.io/images/project/DBProject/movie3.png)
 
  ---
  
 >电影详情界面
 
- ---
- 
 ![电影详情界面](https://fyf2016.github.io/images/project/DBProject/movie4.png)
 
  ---
  
 >管理界面
 
- ---
- 
 ![管理界面](https://fyf2016.github.io/images/project/DBProject/movie5.png)
 
  ---
  
 >选座界面
 
- ---
- 
 ![选座界面](https://fyf2016.github.io/images/project/DBProject/movie6.png)
 
  ---
